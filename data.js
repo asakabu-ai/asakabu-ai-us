@@ -3,6 +3,8 @@ const marketData = {
   todayScore: 92,
 
   marketSentiment: "やや弱気", 
+
+  usdJpy: "149.82",
   
   sectorRanking: [
     "半導体",
