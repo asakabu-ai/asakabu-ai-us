@@ -2,7 +2,7 @@ const marketData = {
 
   todayScore: 92,
 
-  marketSentiment: "かなり強気", 
+  marketSentiment: "やや弱気", 
   
   sectorRanking: [
     "半導体",
