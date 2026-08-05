@@ -5,6 +5,10 @@ const marketData = {
   marketSentiment: "やや弱気", 
 
   usdJpy: "163.88円",
+
+  topSectorName: "SOX指数",
+topSectorChange: "+2.35%",
+topSectorComment: "AI関連への買いが続いています。",
   
   sectorRanking: [
     "金融",
