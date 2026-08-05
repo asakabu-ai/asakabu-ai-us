@@ -4,7 +4,7 @@ const marketData = {
 
   marketSentiment: "やや弱気", 
 
-  usdJpy: "149.82",
+  usdJpy: "147.85円",
   
   sectorRanking: [
     "半導体",
