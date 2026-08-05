@@ -204,9 +204,9 @@ AI関連に注目
 
 <div style="display:flex;justify-content:space-between;">
 
-<span>SOX指数</span>
+<span id="topSectorName">SOX指数</span>
 
-<span style="color:#2ecc71;">+2.35%</span>
+<span id="topSectorChange" style="color:#2ecc71;">+2.35%</span>
 
 </div>
 
@@ -214,7 +214,9 @@ AI関連に注目
 
 <div style="text-align:center;color:#cccccc;">
 
+<span id="topSectorComment">
 AI関連への買いが続いています。
+</span>
 
 </div>
 
@@ -333,6 +335,9 @@ document.getElementById("todayScore").textContent = marketData.todayScore;
 document.getElementById("marketSentiment").textContent = marketData.marketSentiment;  
 document.getElementById("usdJpy").textContent = marketData.usdJpy;  
 document.getElementById("topSector").textContent = marketData.sectorRanking[0];  
+document.getElementById("topSectorName").textContent = marketData.topSectorName;
+document.getElementById("topSectorChange").textContent = marketData.topSectorChange;
+document.getElementById("topSectorComment").textContent = marketData.topSectorComment;  
 </script>
   
 </body>
