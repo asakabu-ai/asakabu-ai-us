@@ -7,7 +7,7 @@ const marketData = {
   usdJpy: "163.88円",
   
   sectorRanking: [
-    "半導体",
+    "金融",
     "ソフトウェア",
     "AI関連"
   ],
