@@ -196,10 +196,10 @@ AI関連に注目
 
 <div style="font-size:24px;font-weight:bold;">
 
-🥇 半導体
+🥇 <span id="topSector">半導体</span>
 
 </div>
-
+  
 <br>
 
 <div style="display:flex;justify-content:space-between;">
@@ -332,6 +332,7 @@ margin:20px 0;">
 document.getElementById("todayScore").textContent = marketData.todayScore;
 document.getElementById("marketSentiment").textContent = marketData.marketSentiment;  
 document.getElementById("usdJpy").textContent = marketData.usdJpy;  
+document.getElementById("topSector").textContent = marketData.sectorRanking[0];  
 </script>
   
 </body>
