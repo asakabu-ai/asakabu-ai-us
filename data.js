@@ -1,6 +1,6 @@
 const marketData = {
 
-  todayScore: 85,
+  todayScore: 92,
 
   sectorRanking: [
     "半導体",
