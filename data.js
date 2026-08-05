@@ -6,9 +6,9 @@ const marketData = {
 
   usdJpy: "163.88円",
 
-  topSectorName: "SOX指数",
-topSectorChange: "+2.35%",
-topSectorComment: "AI関連への買いが続いています。",
+topSectorName: "NASDAQ100",
+topSectorChange: "+1.12%",
+topSectorComment: "大型ハイテク株が堅調です。",
   
   sectorRanking: [
     "金融",
