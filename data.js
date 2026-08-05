@@ -2,6 +2,8 @@ const marketData = {
 
   todayScore: 92,
 
+  marketSentiment: "かなり強気", 
+  
   sectorRanking: [
     "半導体",
     "ソフトウェア",
