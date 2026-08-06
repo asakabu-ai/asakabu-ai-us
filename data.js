@@ -5,12 +5,12 @@ const marketData = {
   marketSentiment: "やや弱気", 
 
   usdJpy: "163.88円",
-
+  topSector: "金融",
 topSectorName: "NASDAQ100",
 topSectorChange: "+1.12%",
 topSectorComment: "大型ハイテク株が堅調です。",
 
-bottomSector: "　銀行",
+　　　　　bottomSector: "　銀行",
 bottomSectorName: "銀行指数",
 bottomSectorChange: "-0.88%",
 bottomSectorComment: "金利低下を受けて売られています。",
