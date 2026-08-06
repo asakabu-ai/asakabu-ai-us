@@ -9,7 +9,12 @@ const marketData = {
 topSectorName: "NASDAQ100",
 topSectorChange: "+1.12%",
 topSectorComment: "大型ハイテク株が堅調です。",
-  
+
+bottomSector: "小売",
+bottomSectorName: "XRT",
+bottomSectorChange: "-1.45%",
+bottomSectorComment: "利益確定売りが優勢です。",  
+ 
   sectorRanking: [
     "金融",
     "ソフトウェア",
