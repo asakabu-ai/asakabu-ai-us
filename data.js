@@ -10,11 +10,11 @@ topSectorName: "NASDAQ100",
 topSectorChange: "+1.12%",
 topSectorComment: "大型ハイテク株が堅調です。",
 
-bottomSector: "小売",
-bottomSectorName: "XRT",
-bottomSectorChange: "-1.45%",
-bottomSectorComment: "利益確定売りが優勢です。",  
- 
+bottomSector: "金融",
+bottomSectorName: "銀行指数",
+bottomSectorChange: "-0.88%",
+bottomSectorComment: "金利低下を受けて売られています。",
+  
   sectorRanking: [
     "金融",
     "ソフトウェア",
