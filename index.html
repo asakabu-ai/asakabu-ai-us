@@ -227,17 +227,17 @@ AI関連への買いが続いています。
 
 <div style="font-size:24px;font-weight:bold;">
 
-🔻 エネルギー
+🔻 <span id="bottomSector">エネルギー</span>
 
 </div>
-
+  
 <br>
 
 <div style="display:flex;justify-content:space-between;">
 
-<span>エネルギー指数</span>
+<span id="bottomSectorName">エネルギー指数</span>
 
-<span style="color:#e74c3c;">-1.42%</span>
+<span id="bottomSectorChange" style="color:#e74c3c;">-1.42%</span>
 
 </div>
 
@@ -245,7 +245,9 @@ AI関連への買いが続いています。
 
 <div style="text-align:center;color:#cccccc;">
 
+<span id="bottomSectorComment">
 原油価格の下落が重しです。
+</span>
 
 </div>
 
@@ -338,6 +340,10 @@ document.getElementById("topSector").textContent = marketData.sectorRanking[0];
 document.getElementById("topSectorName").textContent = marketData.topSectorName;
 document.getElementById("topSectorChange").textContent = marketData.topSectorChange;
 document.getElementById("topSectorComment").textContent = marketData.topSectorComment;  
+document.getElementById("bottomSector").textContent = marketData.bottomSector;
+document.getElementById("bottomSectorName").textContent = marketData.bottomSectorName;
+document.getElementById("bottomSectorChange").textContent = marketData.bottomSectorChange;
+document.getElementById("bottomSectorComment").textContent = marketData.bottomSectorComment;  
 </script>
   
 </body>
