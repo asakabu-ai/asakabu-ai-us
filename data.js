@@ -1,6 +1,6 @@
 const marketData = {
 
-  todayScore: 92,
+  todayScore: 88,
 
   marketSentiment: "やや弱気", 
 
