@@ -11,7 +11,7 @@ topSectorName: "NASDAQ100",
 topSectorChange: "+1.12%",
 topSectorComment: "大型ハイテク株が堅調です。",
 
-　　　　　bottomSector: "　AI関連",
+　　　　　bottomSector: "　銀行",
 bottomSectorName: "銀行指数",
 bottomSectorChange: "-0.88%",
 bottomSectorComment: "金利低下を受けて売られています。",
