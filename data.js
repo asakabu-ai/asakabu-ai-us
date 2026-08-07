@@ -5,6 +5,9 @@ const marketData = {
   marketSentiment: "やや弱気", 
 
   usdJpy: "163.88円",
+
+  importantEvent: "21:30 米雇用統計",
+importantEventComment: "市場が大きく動く可能性があります。"
   
   topSector: "金融",
 topSectorName: "NASDAQ100",
