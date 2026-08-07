@@ -6,7 +6,7 @@ const marketData = {
 
   usdJpy: "163.88円",
 
-  importantEvent: "22:00 米雇用統計",
+  importantEvent: "22:00 FOMC",
 importantEventComment: "市場が大きく動く可能性があります。"
   
   topSector: "金融",
