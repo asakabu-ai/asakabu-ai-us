@@ -6,9 +6,9 @@ const marketData = {
 
   usdJpy: "163.88円",
 
-  sp500Change: "+0.82%",
-  nasdaqChange: "+1.15%",
-  dowChange: "+0.40%",  
+  sp500Change: "+0.88%",
+  nasdaqChange: "+1.77%",
+  dowChange: "+0.55%",  
 
  importantEvent: "22:30 FOMC",
 importantEventComment: "市場が大きく動く可能性があります。",
