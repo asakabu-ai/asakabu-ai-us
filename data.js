@@ -12,6 +12,9 @@ const marketData = {
 
  importantEvent: "22:30 FOMC",
 importantEventComment: "市場が大きく動く可能性があります。",
+
+  aiCommentTitle: "今日は押し目を意識",
+aiCommentText: "市場心理は強気ですが、<br>重要イベントを控えています。<br><br>焦って飛びつかず、<br>押し目を待つ戦略も有効です。",
   
   topSector: "金融",
 topSectorName: "NASDAQ100",
