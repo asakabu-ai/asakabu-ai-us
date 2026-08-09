@@ -341,6 +341,9 @@ document.getElementById("aiCommentTitle").textContent = marketData.aiCommentTitl
 document.getElementById("aiCommentText").innerHTML = marketData.aiCommentText;
 
 document.getElementById("stock1").textContent = marketData.stocks[0];
+document.getElementById("premiumButton").addEventListener("click", function() {
+  alert("プレミアム登録\n\n月額500円\n\n現在準備中です。");
+});  
   
 document.getElementById("sp500Change").textContent = marketData.sp500Change;
 document.getElementById("nasdaqChange").textContent = marketData.nasdaqChange;
