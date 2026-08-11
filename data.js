@@ -42,8 +42,6 @@ bottomSectorComment: "金利低下を受けて売られています。",
     "Broadcom"
   ],
 
-premiumAiAnalysis:
-  "市場全体はやや強気です。AI・半導体関連を中心に注目が集まっています。",  
 
   aiComment: {
     market: "市場心理は強気ですが、重要イベント前のため値動きには注意。",
