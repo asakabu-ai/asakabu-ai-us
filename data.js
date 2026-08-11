@@ -15,6 +15,8 @@ importantEventComment: "市場が大きく動く可能性があります。",
 
   aiCommentTitle: "今日は様子見",
 aiCommentText: "市場心理は弱気ですが、<br>重要イベントを控えています。<br><br>焦って飛びつかず、<br>押し目を待つ戦略も有効です。",
+
+premiumAiAnalysis: "米国市場はやや強気。主要指数が堅調で、AI・ハイテク関連に資金が向かっています。重要イベントを控えているため、短期的には押し目に注意したい局面です。",  
   
   topSector: "金融",
 topSectorName: "NASDAQ100",
