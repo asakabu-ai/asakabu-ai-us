@@ -33,11 +33,11 @@ bottomSectorComment: "金利低下を受けて売られています。",
   ],
 
   stocks: [
-    "Microsoft",
-    "NVIDIA",
-    "Amazon",
+    "Broadcom",
     "Meta",
-    "Broadcom"
+    "Amazon",
+    "NVIDIA",
+    "Microsoft"
   ],
 
   aiComment: {
