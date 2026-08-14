@@ -1,7 +1,5 @@
 const marketData = {
 
-  todayScore: 88,
-
   marketSentiment: "やや弱気", 
 
   usdJpy: "163.88円",
