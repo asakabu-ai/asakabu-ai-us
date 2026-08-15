@@ -32,14 +32,21 @@ bottomSectorComment: "金利低下を受けて売られています。",
     "AI関連"
   ],
 
-  stocks: [
-    "Microsoft",
-    "NVIDIA",
-    "Amazon",
-    "Meta",
-    "Broadcom"
-  ],
+stocks: [
+  "Microsoft",
+  "NVIDIA",
+  "Amazon",
+  "Meta",
+  "Broadcom"
+],
 
+stockReasons: [
+  "大型株の中で堅調",
+  "半導体への資金流入・出来高増加",
+  "直近の値動きが堅調",
+  "出来高を伴って上昇",
+  "半導体セクター上昇＋直近の勢い"
+],  
 
   aiComment: {
     market: "市場心理は強気ですが、重要イベント前のため値動きには注意。",
