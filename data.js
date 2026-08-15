@@ -32,6 +32,63 @@ bottomSectorComment: "金利低下を受けて売られています。",
     "AI関連"
   ],
 
+stockDetails: [
+  {
+    name: "Microsoft",
+    reason: "大型株の中で堅調",
+    change: "+0.8%",
+    recentTrend: "直近数日も堅調",
+    volume: "増加",
+    volumeChange: "+18%",
+    weekPosition: "52週高値圏",
+    risk: "決算発表に注意"
+  },
+
+  {
+    name: "NVIDIA",
+    reason: "半導体への資金流入・出来高増加",
+    change: "+1.7%",
+    recentTrend: "上昇基調",
+    volume: "大幅増加",
+    volumeChange: "+32%",
+    weekPosition: "52週高値圏",
+    risk: "半導体全体の反落"
+  },
+
+  {
+    name: "Amazon",
+    reason: "直近の値動きが堅調",
+    change: "+1.1%",
+    recentTrend: "緩やかな上昇",
+    volume: "増加",
+    volumeChange: "+12%",
+    weekPosition: "52週高値からやや下",
+    risk: "大型株全体の調整"
+  },
+
+  {
+    name: "Meta",
+    reason: "出来高を伴って上昇",
+    change: "+1.4%",
+    recentTrend: "上昇基調",
+    volume: "増加",
+    volumeChange: "+24%",
+    weekPosition: "52週高値圏",
+    risk: "短期的な過熱"
+  },
+
+  {
+    name: "Broadcom",
+    reason: "半導体セクター上昇＋直近の勢い",
+    change: "+2.0%",
+    recentTrend: "強い上昇",
+    volume: "大幅増加",
+    volumeChange: "+35%",
+    weekPosition: "52週高値圏",
+    risk: "半導体セクターの反落"
+  }
+],  
+
 stocks: [
   "Microsoft",
   "NVIDIA",
