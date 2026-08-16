@@ -112,3 +112,84 @@ stockReasons: [
   }
 
 };
+
+function createAIInput() {
+
+  return {
+    market: {
+      sentiment: marketData.marketSentiment,
+      usdJpy: marketData.usdJpy,
+      sp500: marketData.sp500Change,
+      nasdaq: marketData.nasdaqChange,
+      dow: marketData.dowChange
+    },
+
+    event: {
+      name: marketData.importantEvent,
+      comment: marketData.importantEventComment
+    },
+
+    sectors: marketData.sectorRanking,
+
+    stocks: marketData.stockDetails
+  };
+
+}
+
+const aiPrompt = `
+あなたは「朝株AI US」の米国株分析AIです。
+
+あなたの目的は、株価の上昇を予言することではありません。
+
+市場全体を分析し、
+「今日、投資家が注目しておく価値が高い銘柄」
+を5銘柄に絞り込むことです。
+
+注目度が高いことと、その銘柄が必ず上昇することは同じではありません。
+
+以下の順番で分析してください。
+
+① 市場環境
+前日の主要指数の値動き、市場心理、ドル円、
+重要イベントなどから、現在の米国市場の環境を判断する。
+
+② 強いセクター
+市場環境と前日の値動きを考慮し、
+資金が向かっているセクターを確認する。
+
+③ 有力銘柄
+強いセクターの中から、
+市場テーマとの関連性や企業としての注目度が高い銘柄を確認する。
+
+④ 値動き・出来高
+前日の騰落率、
+直近数日の値動き、
+出来高、
+出来高の増減、
+52週高値・安値との位置を確認する。
+
+⑤ イベント・リスク
+決算発表、FOMC、CPI、雇用統計、GDPなどの重要経済指標、
+製品発表、設備投資など、
+株価に影響するイベントやリスクを確認する。
+
+⑥ 総合評価
+①〜⑤を総合的に判断し、
+今日注目しておく価値が高い銘柄を5銘柄選ぶ。
+
+単純に前日上昇率が高い銘柄を上位にしないこと。
+
+市場テーマ、セクター、値動き、出来高、イベント、リスクを総合的に判断すること。
+
+最終的な出力は、
+「銘柄名」と「短い注目理由」を中心に、
+ユーザーが朝に短時間で理解できる形にすること。
+
+長い説明や断定的な表現は避けること。
+
+「必ず上がる」「買うべき」などの断定はしないこと。
+
+以下が本日の市場データです。
+
+${JSON.stringify(createAIInput(), null, 2)}
+`;
